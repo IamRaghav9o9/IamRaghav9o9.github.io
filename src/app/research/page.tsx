@@ -22,28 +22,47 @@ type Publication = {
 const publications: Publication[] = [
   {
     title:
-      "Transfer Learning from Wi-Fi Access Point Data to Air Quality Monitoring: A Spatial-Temporal Graph-Based Approach",
+      "Spatio-temporal Modeling Using a Cost-Effective System for Air Quality Monitoring",
     authors: [
-      "Raghav Chandna",
-      "Isaiah Chiraira",
       "Manal Karmoude",
-      "Ryan Peter Mckenzie",
-      "Brenton Munhungewarwa",
-      "Jude Kong",
-      "Bevan Smith",
+      "Raghav Chandna",
       "Bruce Mellado",
+      "et al.",
     ],
     venue:
-      "2025 5th International Conference on Electrical, Computer and Energy Technologies (ICECET)",
-    venueShort: "ICECET 2025",
-    year: 2025,
-    location: "Paris, France",
-    tags: ["Transfer Learning", "GNN-LSTM", "Air Quality", "Spatio-Temporal"],
-    doi: "10.1109/ICECET63943.2025.11472283",
+      "2026 IEEE Conference on Artificial Intelligence (CAI)",
+    venueShort: "CAI 2026",
+    year: 2026,
+    location: "IEEE CAI",
+    tags: ["Air Quality", "Spatio-Temporal", "Low-Cost Sensors", "GNN"],
+    doi: "10.1109/CAI68641.2026.11536651",
     links: [
       {
         label: "IEEE Xplore",
-        href: "https://doi.org/10.1109/ICECET63943.2025.11472283",
+        href: "https://doi.org/10.1109/CAI68641.2026.11536651",
+      },
+    ],
+  },
+  {
+    title:
+      "A Scalable Reinforcement Learning Framework for Wireless Sensor Networks: Spatiotemporal Cluster-Based Multi-Agent Reinforcement Learning",
+    authors: [
+      "Isaiah Chiraira",
+      "Raghav Chandna",
+      "Bruce Mellado",
+      "et al.",
+    ],
+    venue:
+      "2025 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA)",
+    venueShort: "ACDSA 2025",
+    year: 2025,
+    location: "Antalya, Türkiye",
+    tags: ["Multi-Agent RL", "WSN", "Q-Learning", "Spatiotemporal"],
+    doi: "10.1109/ACDSA65407.2025.11166147",
+    links: [
+      {
+        label: "IEEE Xplore",
+        href: "https://doi.org/10.1109/ACDSA65407.2025.11166147",
       },
     ],
   },
@@ -52,11 +71,8 @@ const publications: Publication[] = [
       "Efficient Transfer Learning for Time-Series Forecasting Using Wi-Fi Data",
     authors: [
       "Raghav Chandna",
-      "Phodiso Maroeshe",
-      "Manal Karmoude",
-      "Phuthi Rapheeha",
-      "Bevan Smith",
       "Bruce Mellado",
+      "et al.",
     ],
     venue:
       "2025 5th International Multidisciplinary Information Technology and Engineering Conference (IMITEC)",
@@ -74,29 +90,44 @@ const publications: Publication[] = [
   },
   {
     title:
-      "A Scalable Reinforcement Learning Framework for Wireless Sensor Networks: Spatiotemporal Cluster-Based Multi-Agent Reinforcement Learning",
+      "Transfer Learning from Wi-Fi Access Point Data to Air Quality Monitoring: A Spatial-Temporal Graph-Based Approach",
     authors: [
-      "Isaiah Chiraira",
-      "Ling Cheng",
-      "Manal Karmoude",
-      "Ryan Mckenzie",
-      "Brenton Munhungewarwa",
       "Raghav Chandna",
-      "Jude Kong",
-      "Bevan Smith",
       "Bruce Mellado",
+      "et al.",
     ],
     venue:
-      "2025 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA)",
-    venueShort: "ACDSA 2025",
+      "2025 5th International Conference on Electrical, Computer and Energy Technologies (ICECET)",
+    venueShort: "ICECET 2025",
     year: 2025,
-    location: "Antalya, Türkiye",
-    tags: ["Multi-Agent RL", "WSN", "Q-Learning", "Spatiotemporal"],
-    doi: "10.1109/ACDSA65407.2025.11166147",
+    location: "Paris, France",
+    tags: ["Transfer Learning", "GNN-LSTM", "Air Quality", "Spatio-Temporal"],
+    doi: "10.1109/ICECET63943.2025.11472283",
     links: [
       {
         label: "IEEE Xplore",
-        href: "https://doi.org/10.1109/ACDSA65407.2025.11166147",
+        href: "https://doi.org/10.1109/ICECET63943.2025.11472283",
+      },
+    ],
+  },
+  {
+    title: "Network Load Forecasting via SARIMA–BiLSTM Transfer Learning",
+    authors: [
+      "Raghav Chandna",
+      "Bruce Mellado",
+      "et al.",
+    ],
+    venue:
+      "2025 International Conference on Data Mining and Big Data (DMBD)",
+    venueShort: "DMBD 2025",
+    year: 2025,
+    location: "Springer DMBD",
+    tags: ["SARIMA", "BiLSTM", "Transfer Learning", "Network Traffic"],
+    doi: "10.1007/978-92-0229-4 19",
+    links: [
+      {
+        label: "Springer Link",
+        href: "https://doi.org/10.1007/978-92-0229-4 19",
       },
     ],
   },
@@ -106,22 +137,22 @@ const interests = [
   {
     area: "Spatio-Temporal Modeling",
     description:
-      "Learning complex spatial and temporal dependencies in geospatial data using graph-based architectures for forecasting and monitoring applications.",
+      "Learning complex spatial and temporal dependencies in geospatial and environmental sensor telemetry using graph-based architectures (GNN, GraphSAGE) and recurrent neural networks.",
   },
   {
     area: "Transfer Learning",
     description:
-      "Reusing learned representations across domains (Wi-Fi → Air Quality) to reduce data and compute requirements while preserving accuracy.",
+      "Reusing representations learned from high-density sources (Wi-Fi access points) to predict target air quality indicators (PM2.5, PM4.0), significantly reducing compute and data collection bottlenecks.",
   },
   {
-    area: "Graph Neural Networks",
+    area: "Graph Neural Networks & Dynamics",
     description:
-      "Message-passing and attention mechanisms on graph-structured data — from sensor networks to molecular graphs.",
+      "Message-passing and spatial graph representation mechanisms for interconnected sensor networks and dynamic environmental telemetry systems.",
   },
   {
-    area: "Reinforcement Learning for IoT",
+    area: "Reinforcement Learning & Distributed Systems",
     description:
-      "Multi-agent RL and cluster-based approaches for scalable decision-making in wireless sensor networks.",
+      "Multi-agent RL (SCMARL) and cluster-based algorithms for scalable, energy-efficient decision-making in large-scale wireless sensor networks.",
   },
 ];
 
@@ -131,12 +162,16 @@ export default function Research() {
       <h1 className="text-3xl sm:text-4xl font-bold mb-3">Research</h1>
       <p className="text-neutral-400 max-w-2xl mb-12">
         My research sits at the intersection of machine learning, physics, and
-        environmental science at the{" "}
-        <span className="text-neutral-200">University of the Witwatersrand</span>{" "}
-        and{" "}
-        <span className="text-neutral-200">iThemba LABS</span>. I&apos;m
-        particularly interested in how structure-aware models can advance
-        scientific understanding and real-world monitoring systems.
+        environmental telemetry at the{" "}
+        <span className="text-neutral-200">
+          South Africa Consortium for Air Quality Management (SACAQM)
+        </span>
+        ,{" "}
+        <span className="text-neutral-200">University of the Witwatersrand</span>
+        , and{" "}
+        <span className="text-neutral-200">iThemba LABS</span>. I investigate
+        how structure-aware models, graph neural networks, and transfer learning
+        can power accurate, resource-efficient real-world monitoring systems.
       </p>
 
       {/* ===== Research Interests ===== */}
@@ -162,9 +197,14 @@ export default function Research() {
 
       {/* ===== Publications ===== */}
       <div className="animate-fade-in-2">
-        <h2 className="text-xl font-semibold text-neutral-200 mb-6">
-          Publications
-        </h2>
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="text-xl font-semibold text-neutral-200">
+            Publications
+          </h2>
+          <span className="text-xs text-neutral-500 font-mono">
+            {publications.length} Papers
+          </span>
+        </div>
         <div className="space-y-6">
           {publications.map((pub) => (
             <article key={pub.doi} className="glass-card">
@@ -216,7 +256,7 @@ export default function Research() {
               </div>
 
               {/* Links */}
-              <div className="flex gap-3 pt-3 border-t border-neutral-800/50">
+              <div className="flex flex-wrap items-center gap-3 pt-3 border-t border-neutral-800/50">
                 {pub.links.map((link) => (
                   <Link
                     key={link.label}

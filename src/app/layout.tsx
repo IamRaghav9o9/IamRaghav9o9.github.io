@@ -16,24 +16,28 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Raghav Chandna — AI/ML Engineer & Researcher",
+    default: "Raghav Chandna — AI/ML Developer & Researcher",
     template: "%s | Raghav Chandna",
   },
   description:
-    "Applied AI/ML engineer with a research mindset. Working on spatio-temporal modeling, graph neural networks, and physics-inspired machine learning.",
+    "AI/ML and Full-Stack Developer working across spatio-temporal modelling, graph neural networks, sensor analytics, and research-oriented software development.",
   keywords: [
     "AI",
     "Machine Learning",
     "Graph Neural Networks",
     "Spatio-Temporal",
-    "Physics-Informed ML",
+    "Transfer Learning",
+    "Air Quality Monitoring",
+    "SACAQM",
+    "FastAPI",
+    "React",
     "Research",
   ],
   authors: [{ name: "Raghav Chandna" }],
   openGraph: {
-    title: "Raghav Chandna — AI/ML Engineer & Researcher",
+    title: "Raghav Chandna — AI/ML Developer & Researcher",
     description:
-      "Applied AI/ML engineer working on spatio-temporal modeling, GNNs, and physics-inspired ML.",
+      "AI/ML and Full-Stack Developer working across spatio-temporal modelling, graph neural networks, sensor analytics, and research-oriented software development.",
     type: "website",
     locale: "en_US",
   },
